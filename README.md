@@ -49,7 +49,7 @@ For algorithms and methods proposed, we plan to study **a unified algorithmic fr
 These representations are expected to **boost the learning in various downstream RL problems**, in straightforward or sophatiscated ways.
 Finally, our ultimate goal is to **land self-supervised representation driven RL in real-world decision-making scenarios**.
 
-<div align=center>![Ecology of SSRL](https://github.com/TJU-DRL-LAB/self-supervised-rl/raw/master/assets/Ecology_of_SSRL.png)</div>
+<div align=center>![Ecology of SSRL](https://github.com/TJU-DRL-LAB/self-supervised-rl/blob/main/assets/Ecology_of_SSRL.png)</div>
 
 
 ## Installation
