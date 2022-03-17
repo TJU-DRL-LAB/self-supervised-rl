@@ -1,6 +1,4 @@
-# Self-supervised RL
-
-A unified opensource code implementation of algorithms for Self-supervised Reinforcement Leanring (SSRL) with Representations.
+# **Self-supervised RL**: A Unified Algorithmic Framework & Opensource Code Implementation of Algorithms for Self-supervised Reinforcement Leanring (SSRL) with Representations
 
 This repo contains representative research works of TJU-RL-Lab on the topic of Self-supervised Representation Learning for RL.
 
@@ -24,13 +22,34 @@ This repo follow a systematic taxnomy of Self-supervised RL with Representations
 
 For a tutorial of this taxnomy, we refer the reader to our [ZhiHu blog series](https://zhuanlan.zhihu.com/p/413321572).
 
+
+
+### A Unified Algorithmic Framework (Implementation Design) of SSRL Algorithm
+
+All SSRL algorithms with representation in our taxonmy follows the same algorithmic framework.  
+The illsutration of our Unified Algorithmic Framework (Implementation Design) of SSRL Algorithm is shown below.
+From left to right, the framework consists of four phases:
+- **Data Input**
+- **Encoding and Transformation**
+- **Methods and Criteria of Representation Learning**
+- **Downstream RL Problems**
+
+The unified framework we propose is general. Almost all currently existing SSRL algorithms can be interpreted with our framework. 
+In turn, this unified framework can also serve as a guidance when we are working on designing a new algorithm.
+
+<div align=center>![Ecology of SSRL](https://github.com/TJU-DRL-LAB/self-supervised-rl/raw/master/assets/alg_framework.png)</div>
+
+
 ### Ecology of SSRL
 
-<div align=center>![Ecology of SSRL](http://rl.beiyang.ren/tju_rl/self-supervised-rl/raw/master/assets/Ecology_of_SSRL.png)</div>
+Beyond the opensource of our research works, we plan to establish the ecology of SSRL in the future.
+Driven by **three key fundamental challenges of RL**, we are working on research explorations at the frontier 
+**from the different perspectives of self-supervised representation in RL**.
+For algorithms and methods proposed, we plan to study **a unified algorithmic framework** togather with **a unified opensource code-level implementation framework**.
+These representations are expected to **boost the learning in various downstream RL problems**, in straightforward or sophatiscated ways.
+Finally, our ultimate goal is to **land self-supervised representation driven RL in real-world decision-making scenarios**.
 
-### The Unified Implementation Design of SSRL Algorithm
-
-<div align=center>![Ecology of SSRL](http://rl.beiyang.ren/tju_rl/self-supervised-rl/raw/master/assets/alg_framework.png)</div>
+<div align=center>![Ecology of SSRL](https://github.com/TJU-DRL-LAB/self-supervised-rl/raw/master/assets/Ecology_of_SSRL.png)</div>
 
 
 ## Installation
@@ -43,7 +62,7 @@ First of all, we recommend the user to install **anaconada** and or **venv** for
 In this repo, the following RL environments may be needed:
 - [OpenAI Gym](https://github.com/openai/gym) (e.g., MuJoCo, Robotics)
 - [MinAtar](https://github.com/kenjyoung/MinAtar)
-- xxxx
+- ......
 - And some environments designed by ourselves.
 
 Note that each algorithm may use only one or several environments in the ones listed above. Please refer to the page of specific algorithm for concrete requirements.
@@ -65,10 +84,8 @@ Environments and code frameworks may differ among different branches. Thus, plea
 | ------ | ------ | --- | --- | ------ | ------ | ------ |
 | Action | HyAR |✅ | ✅  |  Boyan Li |ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
 | Policy | PPO-PeVFA | ✅ | ✅ | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
-| Policy | Deep SARSA-PeVFA |❌ |  ❌ | Zhentao Tang|In progress | N/A |
-| Policy | TD3-PeVFA |❌ |  ❌ | Min Zhang |In progress | N/A |
-| Env&task | CCM | ✅ | ❌ |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| Env&task | PAnDR |✅ |  ✅ |Tong Sang|In progress | N/A |
+| Env&task | CCM | ❌ | ❌ |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
+| Env&task | PAnDR |❌ | ❌ |Tong Sang| In progress | N/A |
 | Other | VDFP |✅ | ✅ |Hongyao Tang| AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
 
 
@@ -80,46 +97,21 @@ Environments and code frameworks may differ among different branches. Thus, plea
 
 ## Citation
 
-If you use our repo in your work, we ask that you cite our **paper**. 
+If you use our repo in your work, please cite the following: 
 
 Here is an example BibTeX:
 ```
-@article{aaa22xxxx,
-  author    = {tjurllab},
+@article{tjurllab22ssrl,
+  author    = {TJU RL Lab},
   title     = {A Unified Repo for Self-supervised RL with Representations},
   year      = {2022},
-  url       = {http://arxiv.org/abs/xxxxxxx},
-  archivePrefix = {arXiv}
+  url       = {https://github.com/TJU-DRL-LAB/self-supervised-rl},
 }
 ```
 
-## Liscense
-
-**[To change]**
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
-
-## Acknowledgement
-
-**[To add some acknowledgement]**
 
 
 ## *Update Log
-2022-02-28:
-- Codes for PAnDR is uploaded by @Jinyi Liu.
-
-2022-02-26:
-- Codes for CCM and VDFP is uploaded by @Hongyao Tang.
-
-2022-02-19:
--  Codes for PeVFA-PPO and README is uploaded by @Hongyao Tang.
-
-2022-02-16:
--  Codes for HyAR is uploaded by @Boyan Li.
-
-2022-01-30:  
--  Repo is created and categories/folders are created.
+2022-03-18:
+- Main page readme uploaded.
+- VDFP, HyAR, PeVFA codes - first commit.
