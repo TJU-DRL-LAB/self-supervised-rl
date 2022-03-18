@@ -37,7 +37,7 @@ From left to right, the framework consists of four phases:
 The unified framework we propose is general. Almost all currently existing SSRL algorithms can be interpreted with our framework. 
 In turn, this unified framework can also serve as a guidance when we are working on designing a new algorithm.
 
-<div align=center>![Algorithmic Framework of SSRL](http://github.com/TJU-DRL-LAB/self-supervised-rl/blob/main/assets/alg_framework.png)</div>
+<div align=center><img align="center" src="./assets/alg_framework.png" alt="Algorithmic Framework of SSRL" style="zoom:20%;" /></div>
 
 
 ### Ecology of SSRL
@@ -49,8 +49,7 @@ For algorithms and methods proposed, we plan to study **a unified algorithmic fr
 These representations are expected to **boost the learning in various downstream RL problems**, in straightforward or sophatiscated ways.
 Finally, our ultimate goal is to **land self-supervised representation driven RL in real-world decision-making scenarios**.
 
-<div align=center>![Ecology of SSRL](http://github.com/TJU-DRL-LAB/self-supervised-rl/blob/main/assets/Ecology_of_SSRL.png)</div>
-
+<div align=center><img align="center" src="./assets/Ecology_of_SSRL.png" alt="Ecology of SSRL" style="zoom:40%;" /></div>
 
 ## Installation
 
