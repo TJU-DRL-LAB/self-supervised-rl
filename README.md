@@ -90,9 +90,7 @@ Environments and code frameworks may differ among different branches. Thus, plea
 
 ## TODO
 
-- [ ] Update a liscence
-- [ ] Update the README files for each branches
-- [ ] Check the vadality of codes to release
+- [ ] Update the README files for each branch
 
 ## Citation
 
