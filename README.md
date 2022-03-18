@@ -9,7 +9,33 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 
 
 ## Introduction
-**[A brief intro to SSRL (?)]**
+Reinforcement Learning (RL) is a major branch of Machine Learning, with expertise in solving sequential decision-making problems.
+Following the typical paradigm of Agent-Environment Interface, 
+an RL agent interacts with the environment by performing its policy and receiving environmental states (or observations) and rewards.
+The agent's purpose is to maximize its expected discounted cumulative rewards, through trial-and-error.
+
+Since the RL agent always receives, processes and delivers all kinds of data in the learning process, 
+how to **properly deal with such "data"** is naturally one key point to the effectiveness and efficiency of RL.
+In general, whenever you are dealing with high-dimensional or complex data (note that even the dimensionality is low, the data can also be complex to our learning problem), 
+or in another word we may call it "not well represented", we often need good representation of data.
+
+One may be familiar to many examples in Computer Vision (CV) and Natural Language Processing (NLP).
+In recent years, **Self-supervised Learning** (SSL) prevails in CV and NLP, boosting great advances in unsupervised pre-training, large model and etc. 
+In most cases mentioned above, the main idea of SSL is to **learn good representation without supervisions**, 
+which is often done by optimizing various pretext tasks (i.e., auxiliary tasks), e.g., reconstruction, prediction and contrast.
+Now, we focus on the representations in RL, seeking for an answer to the question above - **"how to properly consider learn/use representations for RL"**.
+
+Among possible representations in RL, state representation is one major branch.
+The researches on state representation dates back to heuristic representations in linear approximation, 
+state abstraction theories & methods in the early 21th century (actually even earlier).
+New advances on state representation are also emerging in recent years, mainly to deal with high-dimensional states (or observations), e.g., image inputs.
+
+In our framework, we focus on three key questions:
+- **What should a good representation for RL be?**
+- **How can we obtain or realize such good representations?**
+- **How can we making use of good representations to improve RL?**
+
+We view the three questions above as a general guidance for our researches.
 
 
 ### Taxonomy of SSRL
