@@ -18,12 +18,12 @@ additional generalization steps between every two consecutive iteractions are th
 
 A comparison between conventional GPI and GPI with PeVFA is illsutrated below:
 
-![GPI-with-PeVFA](http://rl.beiyang.ren/tju_rl/self-supervised-rl/raw/master/RL%20with%20Policy%20Representation/readme_figs/GPI_with_PeVFA.png)
+<div align=center><img align="center" src="./assets/pr_readme_figs/GPI_with_PeVFA.png" alt="GPI-with-PeVFA" style="zoom:20%;" /></div>
 
 Two general types of generalization is shown below:
 
 ![policy_generalization](http://rl.beiyang.ren/tju_rl/self-supervised-rl/raw/master/RL%20with%20Policy%20Representation/readme_figs/policy_generalization.png)
-
+<div align=center><img align="center" src="./assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
 
 ## An Overall View of Research Works in This Repo  
 
