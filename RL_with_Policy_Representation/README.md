@@ -36,11 +36,11 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 
 | Method | Is Contained | Is ReadME Prepared | Author | Publication | Link |
 | ------ | --- | --- | ------ | ------ | ------ |
-| PPO-PeVFA | ✅ | ✅ | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
+| PPO-PeVFA | ✅ | ❌ | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
 
 
 ## TODO
-
+- [ ] Add README file for PPO-PeVFA
 
 ## Related Work
 
@@ -50,6 +50,7 @@ Here we provide a useful list of representative related works on policy represen
 - Hongyao Tang, Zhaopeng Meng, Jianye Hao, Chen Chen, Daniel Graves, Dong Li, Hangyu Mao, Wulong Liu, Yaodong Yang, Changmin Yu. What About Inputing Policy in Value Function: Policy Representation and Policy-extended Value Function Approximator. AAAI 2021.
 - Jean Harb, Tom Schaul, Doina Precup, Pierre-Luc Bacon. Policy Evaluation Networks. arXiv:2002.11833
 - Francesco Faccio, Jürgen Schmidhuber. Parameter-based Value Functions. ICLR 2021
+- Roberta Raileanu, Max Goldstein, Arthur Szlam, Rob Fergus. Fast Adaptation to New Environments via Policy-Dynamics Value Functions. ICML 2020
 
 ### Policy Representation:
 - Aditya Grover, Maruan Al-Shedivat, Jayesh K. Gupta, Yuri Burda, Harrison Edwards. Learning Policy Representations in Multiagent Systems. ICML 2018
