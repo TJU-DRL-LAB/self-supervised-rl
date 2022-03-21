@@ -120,7 +120,7 @@ Environments and code frameworks may differ among different branches. Thus, plea
 
 ## Liscense
 
-This repo uses [MIT Liscense](https://github.com/TJU-DRL-LAB/self-supervised-rl/blob/main/LICENSE)
+This repo uses [MIT Liscense](https://github.com/TJU-DRL-LAB/self-supervised-rl/blob/main/LICENSE).
 
 ## Citation
 
