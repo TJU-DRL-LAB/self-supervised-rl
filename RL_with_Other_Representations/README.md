@@ -12,7 +12,7 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 
 | Method | Is Contained | Is ReadME Prepared | Author | Publication | Link |
 | ------ | --- | --- | ------ | ------ | ------ |
-| VDFP | ✅ | ❌ | Hongyao Tang | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
+| VDFP | ✅ | ✅ | Hongyao Tang | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
 
 
 ## Installation
