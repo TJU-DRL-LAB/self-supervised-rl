@@ -6,20 +6,23 @@ The core research content of action representation is to discover or learn **wel
 In this repo, we use _complex action space_ to denote the action spaces which are often seen in practical decision-making problems while not that prevalent in current RL community.
 
 We provide two representative complex action space here:
-- Large Action Space: In many real-world scenarios, the action space can be very large, often larger than 10^3. For example, advertising of E-commerce, recommendation systems, multiagent systems (joint action space of multiple agents).
-- Sturctured Action Space: In some other circumstances, the action space is not 'flat', which means an action consists of several components among which the dependencies and orders often exist. For example, discrete-continuous hybrid control in games or product systems.
+- **Large Action Space**: In many real-world scenarios, the action space can be very large, often larger than 10^3. For example, advertising of E-commerce, recommendation systems, multiagent systems (joint action space of multiple agents).
+- **Sturctured Action Space**: In some other circumstances, the action space is not 'flat', which means an action consists of several components among which the dependencies and orders often exist. For example, discrete-continuous hybrid control in games or product systems.
 
-Therefore, the aim of study on action representation is to find a better representation space which is favorable to RL over directly learning with original complex action space.
+Therefore, the aim of study on action representation is to find a better representation space which is **favorable to RL** over directly learning with original complex action space.
 
 ## Repo Content
 
 This repo contains representative research works of TJU-RL-Lab on the topic of RL with Action Representation.
-Currently, we focus on how to learn good action representation which can boost RL in complex action space, by following the paradigm below:
+Currently, we focus on how to learn good action representation which can boost RL in complex action space, by following the illustration below:
 
 
 <div align=center><img align="center" src="./../assets/ar_readme_figs/ar_framework.png" alt="action_representation_framework" style="zoom:20%;" /></div>
 
-This illustration is originated from [Chandak et al. (ICML 2019)](http://proceedings.mlr.press/v97/chandak19a.html). We use this illustration to demonstrate a general paradigm of RL with Action Representation.
+This illustration is originated from [Chandak et al. (ICML 2019)](http://proceedings.mlr.press/v97/chandak19a.html). 
+Given a policy representation space, the illustration depicts the paradigme of latent policy learning, with the help of a _reversible_ action representation space.
+
+We use this illustration to demonstrate a general paradigm of RL with Action Representation.
 
 ## An Overall View of Research Works in This Repo  
 
