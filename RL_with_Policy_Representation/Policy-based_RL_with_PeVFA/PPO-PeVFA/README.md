@@ -12,7 +12,7 @@ Such an extension enables PeVFA to **preserve values of multiple policies at the
 
 Two typical types of generalization offered by PeVFA are illustrated below:
 
-<div align=center><img align="center" src="./../../assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
+<div align=center><img align="center" src="./../../../assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
 
 
 ## Repo Content
@@ -20,7 +20,7 @@ Two typical types of generalization offered by PeVFA are illustrated below:
 
 To make use of value generalization among policies offered by PeVFA, we devise a new form of Generalized Policy Iteraction (GPI), called GPI with PeVFA:
 
-<div align=center><img align="center" src="./../../assets/pr_readme_figs/GPI_with_PeVFA.png" alt="GPI-with-PeVFA" style="zoom:20%;" /></div>
+<div align=center><img align="center" src="./../../../assets/pr_readme_figs/GPI_with_PeVFA.png" alt="GPI-with-PeVFA" style="zoom:20%;" /></div>
 
 The key idea is to allow **values learned for historical policies generalize to successive policies along policy improvement path**.
 
