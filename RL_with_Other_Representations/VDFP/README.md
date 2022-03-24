@@ -4,7 +4,7 @@ Source code and raw data of learning curves for AAAI 2021 paper - 《[Foresee th
 
 
 
-## Description  
+## Introduction  
 
 The key idea of this work is inspired by the concept, called _Prospective Brain_ in neuroscience and congnative science.
 That is, we deem that an RL agent should learn as human beings: 1) first imagine how the behavior (i.e., action) would influence the ongoing future, 2) then evaluate the imagined outcome in the future.
