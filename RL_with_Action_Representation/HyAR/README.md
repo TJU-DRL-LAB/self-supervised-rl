@@ -1,13 +1,47 @@
-# related work
+# ICLR 2022-Hybrid Action Representation (HyAR)
 
-This repository includes several reinforcement learning algorithms for hybrid action space MDPs:
+Source code for ICLR 2022 paper - 《[HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation](https://openreview.net/forum?id=64trBbOhdGU)》.
+
+## Description
+
+
+
+
+## Repo Content
+
+### Folder Description
+- gym-goal gym-platform and multiagent: Hybrid action environment
+- agents：Policy of all algorithms, including pdqn, paddpg, hhqn (benchmark policys) ...; pdqn_MPE, pdqn_MPE_4_direction(random policys)...;
+  Note: The difference between all random policys is only in the hybrid action dimension.
+- HyAR_RL: HyAR-TD3 (TD3 based) and HyAR-DDPG (DDPG based) algorithms training process.
+- Raw_RL: HHQN PDQN PADDPG PATD3 and HPPO algorithms training process
+
+### Domains
+
+Experiment scripts are provided to run each algorithm on the following domains with hybrid actions:
+
+- Platform (https://github.com/cycraig/gym-platform)
+- Robot Soccer Goal (https://github.com/cycraig/gym-goal)
+- Catch Point (mimic implementation of the environment used in HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3))
+- Hard Goal (designed by us, developed based on Robot Soccer Goal)
+- Hard Move (designed by us, inspired by the environment used in [Chandak et al. (ICML 2019)](http://proceedings.mlr.press/v97/chandak19a.html))
+
+## Related Work
+
+This repo includes several reinforcement learning algorithms for hybrid action space MDPs:
 1. HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3)
 2. MAHHQN[[Fu et al. 2018]](https://arxiv.org/abs/1903.04959)
 3. P-DQN [[Xiong et al. 2018]](https://arxiv.org/abs/1810.06394)
 4. PA-DDPG [[Hausknecht & Stone 2016]](https://arxiv.org/abs/1511.04143)
 
 
-## Dependencies
+## Installation
+
+Here is an ancient installation guidance which needs step-by-step installation. A more automatic guidance with pip will be considered in the future.
+
+We recommend the user to install **anaconada** and or **venv** for convenient management of different python envs.
+
+### Dependencies
 
 - Python 3.6+ (tested with 3.6 and 3.7)
 - pytorch 0.4.1+
@@ -16,23 +50,6 @@ This repository includes several reinforcement learning algorithms for hybrid ac
 - click
 - pygame
 - numba
-
-## Folder Description
-- gym-goal gym-platform and multiagent: Hybrid action environment
-- agents：Policy of all algorithms, including pdqn, paddpg, hhqn (benchmark policys) ...; pdqn_MPE, pdqn_MPE_4_direction(random policys)...;
-  Note: The difference between all random policys is only in the hybrid action dimension.
-- HyAR_RL: HyAR-TD3 (TD3 based) and HyAR-DDPG (DDPG based) algorithms training process.
-- Raw_RL: HHQN PDQN PADDPG PATD3 and HPPO algorithms training process
-
-## Domains
-
-Experiment scripts are provided to run each algorithm on the following domains with hybrid actions:
-
-- Platform (https://github.com/cycraig/gym-platform)
-- Robot Soccer Goal (https://github.com/cycraig/gym-goal)
-- Hard Goal
-- Hard Move
-
 
 ## Example Usage
 
@@ -47,28 +64,17 @@ python main_platform_td3.py
 python main_platform_ddpg.py
 ```
 
-## Citing
+We refer the user to our paper for complete details of hyperparameter settings and design choices.
+
+## Citation
 If this repository has helped your research, please cite the following:
 ```bibtex
-@article{DBLP:journals/corr/abs-2109-05490,
-  author    = {Boyan Li and
-               Hongyao Tang and
-               Yan Zheng and
-               Jianye Hao and
-               Pengyi Li and
-               Zhen Wang and
-               Zhaopeng Meng and
-               Li Wang},
-  title     = {HyAR: Addressing Discrete-Continuous Action Reinforcement Learning
-               via Hybrid Action Representation},
-  journal   = {CoRR},
-  volume    = {abs/2109.05490},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2109.05490},
-  eprinttype = {arXiv},
-  eprint    = {2109.05490},
-  timestamp = {Tue, 21 Sep 2021 17:46:04 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2109-05490.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{
+li2022hyar,
+title={Hy{AR}: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation},
+author={Boyan Li and Hongyao Tang and YAN ZHENG and Jianye HAO and Pengyi Li and Zhen Wang and Zhaopeng Meng and LI Wang},
+booktitle={International Conference on Learning Representations},
+year={2022},
+url={https://openreview.net/forum?id=64trBbOhdGU}
 }
 ```
