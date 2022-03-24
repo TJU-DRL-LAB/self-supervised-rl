@@ -124,9 +124,7 @@ This repo uses [MIT Liscense](https://github.com/TJU-DRL-LAB/self-supervised-rl/
 
 ## Citation
 
-If you use our repo in your work, please cite the following: 
-
-Here is an example BibTeX:
+If this repository has helped your research, please cite the following:
 ```
 @article{tjurllab22ssrl,
   author    = {TJU RL Lab},
