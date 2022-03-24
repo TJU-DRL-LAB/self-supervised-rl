@@ -1,7 +1,6 @@
 # AAAI2021-Value Decomposition with Latent Future Prediction (VDFP)
 
-This is the official implementation (a neat version) of 
-our work
+This is the official implementation of our work
 [Foresee then Evaluate: Decomposing Value Estimation with Latent Future Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/17182) accepted on AAAI 2021.
 
 
