@@ -7,10 +7,20 @@ Source code for ICLR 2022 paper - 《[HyAR: Addressing Discrete-Continuous Actio
 
 
 
+
+## Related Work
+
+This repo includes several reinforcement learning algorithms for hybrid action space MDPs:
+1. HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3)
+2. MAHHQN[[Fu et al. 2018]](https://arxiv.org/abs/1903.04959)
+3. P-DQN [[Xiong et al. 2018]](https://arxiv.org/abs/1810.06394)
+4. PA-DDPG [[Hausknecht & Stone 2016]](https://arxiv.org/abs/1511.04143)
+
+
 ## Repo Content
 
 ### Folder Description
-- gym-goal gym-platform and multiagent: Hybrid action environment
+- gym-goal, gym-platform, and multiagent: The environments with hybrid action spaces adopted in our work
 - agents：Policy of all algorithms, including pdqn, paddpg, hhqn (benchmark policys) ...; pdqn_MPE, pdqn_MPE_4_direction(random policys)...;
   Note: The difference between all random policys is only in the hybrid action dimension.
 - HyAR_RL: HyAR-TD3 (TD3 based) and HyAR-DDPG (DDPG based) algorithms training process.
@@ -25,14 +35,6 @@ Experiment scripts are provided to run each algorithm on the following domains w
 - Catch Point (mimic implementation of the environment used in HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3))
 - Hard Goal (designed by us, developed based on Robot Soccer Goal)
 - Hard Move (designed by us, inspired by the environment used in [Chandak et al. (ICML 2019)](http://proceedings.mlr.press/v97/chandak19a.html))
-
-## Related Work
-
-This repo includes several reinforcement learning algorithms for hybrid action space MDPs:
-1. HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3)
-2. MAHHQN[[Fu et al. 2018]](https://arxiv.org/abs/1903.04959)
-3. P-DQN [[Xiong et al. 2018]](https://arxiv.org/abs/1810.06394)
-4. PA-DDPG [[Hausknecht & Stone 2016]](https://arxiv.org/abs/1511.04143)
 
 
 ## Installation
