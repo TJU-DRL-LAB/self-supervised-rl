@@ -1,4 +1,4 @@
-# AAAI2021-VDFP
+# AAAI2021-Value Decomposition with Latent Future Prediction (VDFP)
 
 Source code and raw data of learning curves for AAAI 2021 paper - 《[Foresee then Evaluate: Decomposing Value Estimation with Latent Future Prediction](https://ojs.aaai.org/index.php/AAAI/article/view/17182)》
 
@@ -9,7 +9,7 @@ Source code and raw data of learning curves for AAAI 2021 paper - 《[Foresee th
 The key idea of this work is inspired by the concept, called _Prospective Brain_ in neuroscience and congnative science.
 That is, we deem that an RL agent should learn as human beings: 1) first imagine how the behavior (i.e., action) would influence the ongoing future, 2) then evaluate the imagined outcome in the future.
 
-To fullfill a model-free agent which acts in a two-step way mentioned above, we proposed **Value Estimation Decomposition with Latent Future Prediction (VDFP)**, as illustrated below.
+To fullfill a model-free agent which acts in a two-step way mentioned above, we proposed **Value Decomposition with Latent Future Prediction (VDFP)**, as illustrated below.
 We analytically decompose the value function into a latent future dynamics part and a policy-independent trajectory return part, inducing a way to model latent dynamics and returns separately in value estimation. Further, we derive a practical deep RL algorithm, consisting of:
 - a convolutional model to learn compact trajectory representation from past experiences,
 - a conditional variational auto-encoder to predict the latent future dynamics,
