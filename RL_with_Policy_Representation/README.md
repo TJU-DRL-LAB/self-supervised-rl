@@ -16,22 +16,25 @@ Currently, we focus on how policy representation can improve policy learning pro
 
 ### Two Types of Generalization
 
+One major characteristic brought by policy representation is **value (more broadly, function) generalization among policies**.
 
 Two general types of generalization is shown below:
-- **Global Generalization**: denotes the general cases where values (or other policy-dependent functions) already learned (or known) for some policies can generalize to the values of other policies (i.e., unknown or unseen ones)
-- **Local Generalization**: denotes the specific cases where values (or other policy-dependent functions) already learned (or known) for historical (or previous) policies encountered along the **policy improvement path** to the values of the following (or successive) policies we are going to estimate later
+- **Global Generalization**: denotes the general cases where values (or other policy-dependent functions) already learned (or known) for some policies can generalize to the values of other policies (i.e., unknown or unseen ones).
+- **Local Generalization**: denotes the specific cases where values (or other policy-dependent functions) already learned (or known) for historical (or previous) policies encountered along the **policy improvement path** to the values of the following (or successive) policies we are going to estimate later.
 
 <div align=center><img align="center" src="./../assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
 
 ### GPI with PeVFA
 
-Following the Generalized Policy Iteration with Policy-extended Value Function Approximator (GPI with PeVFA),
-additional generalization steps between every two consecutive iteractions are the key characteristic of policy representation and PeVFA.
+An obvious consequence of local generalization is that, we now have additional value generalization for the successive policies during typical Generalized Policy Iteration (GPI).
+Taking advantage of this characteristic, we propose a new learning paradigm called **Generalized Policy Iteration with Policy-extended Value Function Approximator (GPI with PeVFA)**.
 A comparison between conventional GPI and GPI with PeVFA is illsutrated below:
 
 <div align=center><img align="center" src="./../assets/pr_readme_figs/GPI_with_PeVFA.png" alt="GPI-with-PeVFA" style="zoom:20%;" /></div>
 
-
+GPI with PeVFA is general and can be fulfilled by various means in principle. The key points we may have to conisder is:
+- Whether the additional generalization is beneficial to or improves conventional RL.
+- How to properly represent policies and establish PeVFA to release the best potentials. 
 
 ## An Overall View of Research Works in This Repo  
 
