@@ -110,7 +110,7 @@ Environments and code frameworks may differ among different branches. Thus, plea
 | Action | HyAR |✅ | ✅  |  Boyan Li |ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
 | Policy | PPO-PeVFA | ✅ | ✅ | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
 | Env&task | CCM | ❌ | ❌ |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| Env&task | PAnDR |❌ | ❌ |Tong Sang| In progress | N/A |
+| Env&task | PAnDR |❌ | ❌ |Tong Sang| [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | N/A |
 | Other | VDFP |✅ | ✅ |Hongyao Tang| AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
 
 
