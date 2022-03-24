@@ -83,7 +83,7 @@ python main_platform_ddpg.py
 We refer the user to our paper for complete details of hyperparameter settings and design choices.
 
 ## TO-DO
-- [] Tidy up redundant codes
+- [ ] Tidy up redundant codes
 
 ## Citation
 If this repository has helped your research, please cite the following:
