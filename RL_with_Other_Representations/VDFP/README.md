@@ -6,6 +6,9 @@ Source code and raw data of learning curves for AAAI 2021 paper - 《[Foresee th
 
 ## Description  
 
+<div align=center><img align="center" src="./assets/VDFP_framework.png" alt="VDFP Pipeline" style="zoom:40%;" /></div>
+
+## Repo Content
 The source code mainly contains:  
 -  implementation of our algorithm (VDFP) and other benchmark algorithms used in our experiments;  
 -  the raw learning curves data and plot code.  
