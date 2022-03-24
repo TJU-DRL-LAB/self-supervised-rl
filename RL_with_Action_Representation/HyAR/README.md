@@ -5,6 +5,7 @@ Source code for ICLR 2022 paper - 《[HyAR: Addressing Discrete-Continuous Actio
 ## Description
 
 
+<div align=center><img align="center" src="./assets/HyAR_concept.png" alt="HyAR Conceptual Illustration" style="zoom:40%;" /></div>
 
 
 
