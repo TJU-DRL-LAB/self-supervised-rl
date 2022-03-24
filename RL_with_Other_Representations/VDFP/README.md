@@ -15,16 +15,22 @@ All the implementation and experimental details mentioned in our paper and the S
   
 ## Installation
 
-# Environment Setup
-We conduct our experiments on [MuJoCo](https://roboti.us/license.html) continuous control tasks in [OpenAI gym](http://gym.openai.com). Our codes are implemented with **Python 3.6** and **Tensorflow 1.8**. (Now MuJoCo is opensource due to the proposal of DeepMind.)
+Here is an ancient installation guidance which needs step-by-step installation. A more automatic guidance with pip will be considered in the future.
 
-# Equipment
+
+Our codes are implemented with **Python 3.6** and **Tensorflow 1.8**. We recommend the user to install **anaconada** and or **venv** for convenient management of different python envs.
+
+### Environment Setup
+We conduct our experiments on [MuJoCo](https://roboti.us/license.html) continuous control tasks in [OpenAI gym](http://gym.openai.com). 
+(Now MuJoCo is opensource due to the proposal of DeepMind.)
+Please follow the guidance of installation MuJoCo and OpenAI gym as convention.
+
+### Equipment
 We run our experiments on both **Windows 7** and **Ubuntu 16.04 LTS** operating systems.  
 
-# Dependency
+### Dependency
 Main dependencies and versions are listed below:  
 
-<div align=center>
 | Dependency | Version |
 | ------ | ------ |
 | gym | 0.9.1 |
@@ -35,13 +41,15 @@ Main dependencies and versions are listed below:
 | scipy | 1.2.1 | 
 | scikit-learn | 0.20.3 | 
 | matplotlib | 3.0.3 | 
-</div>
-  
+
   
 ## Examples  
   
 Examples of run commands can be seen in the file below:
 > ./run/run_vdfp.sh
+
+For hyperparameter settings, please refer to our paper for details. Feel free to modify on needs.
+
 
 ## Citation
 If you use our repo in your work, please cite the following: 
