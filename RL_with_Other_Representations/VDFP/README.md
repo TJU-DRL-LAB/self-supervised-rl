@@ -68,9 +68,7 @@ For hyperparameter settings, please refer to our paper for details. Feel free to
 
 
 ## Citation
-If you use our repo in your work, please cite the following: 
-
-Here is an example BibTeX:
+If this repository has helped your research, please cite the following:
 ```
 @inproceedings{Tang2021VDFP,
   author    = {Hongyao Tang and
