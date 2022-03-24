@@ -28,6 +28,7 @@ Two general types of generalization is shown below:
 
 An obvious consequence of local generalization is that, we now have additional value generalization for the successive policies during typical Generalized Policy Iteration (GPI).
 Taking advantage of this characteristic, we propose a new learning paradigm called **Generalized Policy Iteration with Policy-extended Value Function Approximator (GPI with PeVFA)**.
+
 A comparison between conventional GPI and GPI with PeVFA is illsutrated below:
 
 <div align=center><img align="center" src="./../assets/pr_readme_figs/GPI_with_PeVFA.png" alt="GPI-with-PeVFA" style="zoom:20%;" /></div>
