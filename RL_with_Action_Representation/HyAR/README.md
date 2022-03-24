@@ -1,6 +1,8 @@
 # ICLR 2022-Hybrid Action Representation (HyAR)
 
-Source code for ICLR 2022 paper - 《[HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation](https://openreview.net/forum?id=64trBbOhdGU)》.
+This is the official implementation (a neat version) of 
+our work [HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation](https://openreview.net/forum?id=64trBbOhdGU)
+accepted on ICLR 2022.
 
 ## Introduction
 
