@@ -15,7 +15,7 @@ Two typical types of generalization offered by PeVFA are illustrated below:
 <div align=center><img align="center" src="./../../../assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
 
 
-## Repo Content
+
 
 
 To make use of value generalization among policies offered by PeVFA, we devise a new form of Generalized Policy Iteraction (GPI), called GPI with PeVFA:
@@ -27,6 +27,14 @@ The key idea is to allow **values learned for historical policies generalize to 
 In our experiments, we evaluate the efficacy of value generalization offered by PeVFA and policy representation learning in several OpenAI Gym continuous control tasks. 
 For a representative instance of algorithm implementation, Proximal Policy Optimization (PPO) re-implemented under the paradigm of GPI with PeVFA achieves about 40\% performance improvement on its vanilla counterpart in most environments.
 
+
+## Repo Content
+The source code mainly contains:  
+-  implementation of our algorithm (PPO-PeVFA) and the vanilla PPO code base;  
+-  implementation of policy representation encoding adn learning;
+-  the synthetic experiements (TO-ADD).  
+
+All the implementation and experimental details mentioned in our paper and the Supplementary Material can be found in our codes.  
 
 ## Installation
 
