@@ -6,7 +6,20 @@ Source code and raw data of learning curves for AAAI 2021 paper - 《[Foresee th
 
 ## Description  
 
+The key idea of this work is inspired by the concept, called _Prospective Brain_ in neuroscience and congnative science.
+That is, we deem that an RL agent should learn as human beings: 1) first imagine how the behavior (i.e., action) would influence the ongoing future, 2) then evaluate the imagined outcome in the future.
+
+To fullfill a model-free agent which acts in a two-step way mentioned above, we proposed **Value Estimation Decomposition with Latent Future Prediction (VDFP)**, as illustrated below.
+We analytically decompose the value function into a latent future dynamics part and a policy-independent trajectory return part, inducing a way to model latent dynamics and returns separately in value estimation. Further, we derive a practical deep RL algorithm, consisting of:
+- a convolutional model to learn compact trajectory representation from past experiences,
+- a conditional variational auto-encoder to predict the latent future dynamics,
+- and a convex return model that evaluates trajectory representation.
+
 <div align=center><img align="center" src="./assets/VDFP_framework.png" alt="VDFP Pipeline" style="zoom:40%;" /></div>
+
+This may remind someone of model-based imagination, yet we deem that human beings usually act according to _intuition_ (vague but informative) which differs with explicit planning (although this is also a means to control).
+Our work is also closely related to _Successor Feature_ or _Successor Representation_ literature.
+
 
 ## Repo Content
 The source code mainly contains:  
