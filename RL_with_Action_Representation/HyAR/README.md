@@ -1,6 +1,6 @@
 # ICLR 2022-Hybrid Action Representation (HyAR)
 
-This is the official implementation (a neat version) of 
+This is the official implementation of 
 our work [HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation](https://openreview.net/forum?id=64trBbOhdGU)
 accepted on ICLR 2022.
 
@@ -81,6 +81,8 @@ python main_platform_ddpg.py
 ```
 
 We refer the user to our paper for complete details of hyperparameter settings and design choices.
+
+
 
 ## Citation
 If this repository has helped your research, please cite the following:
