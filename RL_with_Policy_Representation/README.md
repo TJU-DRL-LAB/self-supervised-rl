@@ -47,6 +47,12 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 | PPO-PeVFA | ✅ | ❌ | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
 
 
+## Installation
+
+The algorithms in this repo are all implemented **python 3.5** (and versions above). **Tensorflow 1.x** and **PyTorch** are the main DL code frameworks we adopt in this repo with different choices in different algorithms.
+
+Note that the algorithms contained in this repo may not use all the same environments. Please check the README of specific algorithms for detailed installation guidance.
+
 ## TODO
 - [ ] Add README file for PPO-PeVFA
 
