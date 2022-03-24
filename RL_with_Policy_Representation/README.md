@@ -1,7 +1,7 @@
 # RL with Policy Representation
 
 Policy Representation is one major category in our taxonomy. 
-The core research content of policy representation is to discover or learn low-dimensional representation for RL policy, which are beneficial to downstream RL tasks (e.g., policy learning).
+The core research content of policy representation is to discover or learn **low-dimensional representation for RL policy**, which are beneficial to downstream RL tasks (e.g., policy learning).
 In a general view, any decision-making problems which involves multiple policies or a policy optimization process, can be the potential downstream tasks of policy representation.
 
 In our opinion, RL with Policy Representation contains the research on:
@@ -13,21 +13,25 @@ In our opinion, RL with Policy Representation contains the research on:
 
 This repo contains representative research works of TJU-RL-Lab on the topic of RL with Policy Representation.
 Currently, we focus on how policy representation can improve policy learning process in a general way.
-Following the [Generalized Policy Iteration with Policy-extended Value Function Approximator (GPI with PeVFA)](http://rl.beiyang.ren/tju_rl/self-supervised-rl/tree/master/RL%20with%20Policy%20Representation/Policy-based%20RL%20with%20PeVFA/PPO-PeVFA),
-additional generalization steps between every two consecutive iteractions are the key characteristic of policy representation and PeVFA.
+
+### Two Types of Generalization
+
+
+Two general types of generalization is shown below:
+- **Global Generalization**: denotes the general cases where values (or other policy-dependent functions) already learned (or known) for some policies can generalize to the values of other policies (i.e., unknown or unseen ones)
+- **Local Generalization**: denotes the specific cases where values (or other policy-dependent functions) already learned (or known) for historical (or previous) policies encountered along the **policy improvement path** to the values of the following (or successive) policies we are going to estimate later
+
+<div align=center><img align="center" src="./../assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
 
 ### GPI with PeVFA
 
+Following the Generalized Policy Iteration with Policy-extended Value Function Approximator (GPI with PeVFA),
+additional generalization steps between every two consecutive iteractions are the key characteristic of policy representation and PeVFA.
 A comparison between conventional GPI and GPI with PeVFA is illsutrated below:
 
 <div align=center><img align="center" src="./../assets/pr_readme_figs/GPI_with_PeVFA.png" alt="GPI-with-PeVFA" style="zoom:20%;" /></div>
 
-### Two Types of Generalization
 
-Two general types of generalization is shown below:
-
-
-<div align=center><img align="center" src="./../assets/pr_readme_figs/policy_generalization.png" alt="policy_generalization" style="zoom:20%;" /></div>
 
 ## An Overall View of Research Works in This Repo  
 
