@@ -41,12 +41,12 @@ The algorithms in this repo are all implemented **python 3.5** (and versions abo
 Note that the algorithms contained in this repo may not use all the same environments. Please check the README of specific algorithms for detailed installation guidance.
 
 ## TODO
-- [ ] Update README file for HyAR
+- [x] Update README file for HyAR
 - [ ] Tidy up code of HyAR
 
 ## Related Work
 
-Here we provide a useful list of representative related works on policy representation and policy-extended value functions.
+Here we provide a useful list of representative related works on action representation and complex action space RL.
 
 - Boyan Li, Hongyao Tang, Yan Zheng, Jianye Hao, Pengyi Li, Zhen Wang, Zhaopeng Meng, Li Wang. HyAR: Addressing Discrete-Continuous Action Reinf
 orcement Learning via Hybrid Action Representation. ICLR 2022
