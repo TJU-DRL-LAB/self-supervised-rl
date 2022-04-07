@@ -19,6 +19,14 @@ We provide a conceptual illustration of Context-based Environment Representation
 
 <div align=center><img align="center" src="./../assets/er_readme_figs/ER_framework.png" alt="environment_representation_framework" style="zoom:20%;" /></div>
 
+The representations of environment are learned by encoding context data and extracting information according to specific context learning objectives.
+Afterwards, Context-conditioned RL functions, e.g., 𝑄(𝑠,𝑎,𝑧), 𝜋(⋅|𝑠,𝑧) are trained, to make the RL agent aware of the environment representation (i.e., variations ideally).
+Therefore, with such context-conditioned RL functions, implicit generalization or explicit adaptation can be carried out.
+
+
+
+
+
 ## An Overall View of Research Works in This Repo  
 
 This repo will be constantly updated to include new researches made by TJU-RL-Lab. 
@@ -27,7 +35,7 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 | Method | Is Contained | Is ReadME Prepared | Author | Publication | Link |
 | ------ | --- | --- | ------ | ------ | ------ |
 | CCM | ❌ | ❌ |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| PAnDR |❌ | ❌ |Tong Sang| [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | https://arxiv.org/abs/2204.02877 |
+| PAnDR |✅ | ❌ |Tong Sang| [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | https://arxiv.org/abs/2204.02877 |
 
 
 ## Installation
