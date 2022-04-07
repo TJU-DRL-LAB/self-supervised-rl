@@ -1,8 +1,10 @@
-# Policy-Dynamics Value Functions (PD-VF) 
+# ICLR 2022 GPL Workshop-Policy Adaptation via Decoupled Policy and Environment Representations (PAnDR)
 
-This is source code for the paper 
+This is the official implementation of 
+our work [PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations](https://arxiv.org/abs/2204.02877)
+presented at ICLR 2022 Workshop on Generalizable Policy Leanring (GPL).
 
-[PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations]
+## Introduction
 
 
 
@@ -53,4 +55,20 @@ python ppo/ppo_main.py \
 ```
 
 
+We refer the user to our paper for complete details of hyperparameter settings and design choices.
+
+## TO-DO
+- [ ] Tidy up redundant codes
+
+## Citation
+If this repository has helped your research, please cite the following:
+```bibtex
+@inproceedings{sang2022pandr,
+  title     = {PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations},
+  author    = {Tong Sang, Hongyao Tang, Yi Ma, Jianye Hao, Yan Zheng, Zhaopeng Meng, Boyan Li, Zhen Wang},
+  booktitle = {International Conference on Learning Representations Workshop on Generalizable Policy Learning},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2204.02877}
+}
+```
 
