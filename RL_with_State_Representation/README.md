@@ -1,10 +1,30 @@
 # RL with State Representation
 
+State Representation is one major category in our taxonomy. 
+The core research content of state representation is to learn the abstraction/representation of original state space, which is usually high-dimensional, complex and difficult to deal with directly by conventional RL algorithms.
+The purpose of state representation learning is to make RL effective, efficient and optimal in especially practical decision-making problems.
+
+In essence, to learn state representation is the process of discovering the decision-related or decision-agnositic (depending on the specific purposes) images of original MDPs.
+
+In our opinion, RL with State Representation contains the research on:
+- **What an optimal state representation should be like. (Theories on Abstraction and Generalization)**
+- **How to obtain or learn desired state representation in specific cases. (Methods of Learning State Representation)**
+- **How to deal with the co-learning and inter-dependence between state representation and RL policy/value functions. (Studies on Learning Dynamics)**
 
 
 ## Related Work
 
 Here we provide a useful list of representative related works on state representation in RL.
+
+### Abstraction, Optimality and Generalization
+
+- Lihong Li, Thomas J. Walsh, Michael L. Littman. Towards a Unified Theory of State Abstraction for MDPs. ISAIM 2006
+- David Abel, D. Ellis Hershkowitz, Michael L. Littman. Near Optimal Behavior via Approximate State Abstraction. ICML 2016
+- Charline Le Lan, Marc G. Bellemare, Pablo Samuel Castro. Metrics and Continuity in Reinforcement Learning. AAAI 2021
+- Clare Lyle, Mark Rowland, Georg Ostrovski, Will Dabney. On the Effect of Auxiliary Tasks on Representation Dynamics. AISTATS 2021
+- David Abel, Nate Umbanhowar, Khimya Khetarpal, Dilip Arumugam, Doina Precup, Michael L. Littman. Value Preserving State-Action Abstractions. AISTATS 2020
+
+
 
 ### Representations Developed from General Un-/Self-supervised Learning Principles
 
