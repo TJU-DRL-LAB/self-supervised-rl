@@ -6,6 +6,17 @@ presented at ICLR 2022 Workshop on Generalizable Policy Leanring (GPL).
 
 ## Introduction
 
+Deep Reinforcement Learning (DRL) has been a promising solution to many complex decision-making problems. Nevertheless, the notorious weakness in generalization among environments prevent widespread application of DRL agents in real-world scenarios. 
+Although advances have been made recently, most prior works assume sufficient online interaction on training environments, which can be costly in practical cases. 
+To this end, we focus on an **offline-training-online-adaptation** setting, in which the agent first learns from offline experiences collected in environments with different dynamics and then performs online policy adaptation in environments with new dynamics. 
+
+In this paper, we propose Policy Adaptation with Decoupled Representations (PAnDR) for fast policy adaptation. 
+- In offline training phase, the **environment representation** and **policy representation** are learned through _contrastive learning_ and _policy recovery_, respectively. The representations are further refined by _mutual information optimization_ to make them **more decoupled and complete**. With learned representations, a Policy-Dynamics Value Function (PDVF) (Raileanu et al., 2020) network is trained to approximate the values for different combinations of policies and environments. 
+- In online adaptation phase, with the environment context inferred from few experiences collected in new environments, the policy is optimized by gradient ascent with respect to the PDVF.
+
+A conceptual illustration is shown below.
+
+<div align=center><img align="center" src="./assets/PAnDR_concept.png" alt="PAnDR Conceptual Illustration" style="zoom:40%;" /></div>
 
 
 ## Envvironment install 
