@@ -18,8 +18,25 @@ A conceptual illustration is shown below.
 
 <div align=center><img align="center" src="./assets/PAnDR_concept.png" alt="PAnDR Conceptual Illustration" style="zoom:40%;" /></div>
 
+## Repo Content
 
-## Envvironment install 
+### Folder Description
+
+
+### Domains
+
+
+## Installation
+
+We recommend the user to install **anaconada** and or **venv** for convenient management of different python envs.
+
+### Dependencies
+
+- Python 
+
+
+
+### Environment install 
 ```
 cd myant 
 pip install -e .  
@@ -31,36 +48,36 @@ cd myspaceship
 pip install -e .  
 ```
 
-## (1) Reinforcement Learning Phase 
+## Example Usage
+
+### (1) Reinforcement Learning Phase 
 
 Train PPO policies on each environments.
 
 Each of the commands below need to be run 
 for seed in [0,...,4] and for default-ind in [0,...,19].
 
-### Spaceship
+#### Spaceship
 ```
 python ppo/ppo_main.py \
 --env-name spaceship-v0 --default-ind 0 --seed 0 
 ```
 
-### Swimmer
+#### Swimmer
 ```
 python ppo/ppo_main.py \
 --env-name myswimmer-v0 --default-ind 0 --seed 0 
 ```
 
-### Ant-wind
+#### Ant-wind
 ```
 python ppo/ppo_main.py \
 --env-name myant-v0 --default-ind 0 --seed 0 
 ```
 
-## (2) PAnDR Training Phase
+### (2) PAnDR Training Phase
 
-## Dynamics Embedding
-
-### Ant-wind
+#### Ant-wind
 ```
 # python main_train.py --env-name myant-v0 --op-lr 0.01 --num-t-policy-embed 50 --num-t-env-embed 1 --gd-iter 50 --norm-reward --min-reward -200 --max-reward 1000 --club-lambda 1000 --mi-lambda 1
 ```
