@@ -12,6 +12,11 @@ In our opinion, RL with State Representation contains the research on:
 - **How to deal with the co-learning and inter-dependence between state representation and RL policy/value functions. (Studies on Learning Dynamics)**
 
 
+An illustration of the conventional paradigm of RL with State Representation is shown below (modified from [Chung et al., ICLR 2019](https://openreview.net/forum?id=rJleN20qK7)):
+
+<div align=center><img align="center" src="./../assets/sr_readme_figs/sr_framework.png" alt="state_representation_framework" style="zoom:20%;" /></div>
+
+
 ## Related Work
 
 Here we provide a useful list of representative related works on state representation in RL.
@@ -83,6 +88,7 @@ Here we provide a useful list of representative related works on state represent
 
 ### Deeper Looks of Auxiliary Tasks for State Representation Learning (Effects of Representation Learning Dynamics)
 
+- Wesley Chung, Somjit Nath, Ajin Joseph, Martha White. Two-Timescale Networks for Nonlinear Value Function Approximation. ICLR (Poster) 2019
 - Will Dabney, André Barreto, Mark Rowland, Robert Dadashi, John Quan, Marc G. Bellemare, David Silver. The Value-Improvement Path: Towards Better Representations for Reinforcement Learning. AAAI 2021
 - Robert Dadashi, Marc G. Bellemare, Adrien Ali Taïga, Nicolas Le Roux, Dale Schuurmans. The Value Function Polytope in Reinforcement Learning. ICML 2019 
 - Marc G. Bellemare, Will Dabney, Robert Dadashi, Adrien Ali Taïga, Pablo Samuel Castro, Nicolas Le Roux, Dale Schuurmans, Tor Lattimore, Clare Lyle. A Geometric Perspective on Optimal Representations for Reinforcement Learning. NeurIPS 2019
