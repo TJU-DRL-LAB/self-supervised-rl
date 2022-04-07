@@ -21,7 +21,7 @@ We provide a conceptual illustration of Context-based Environment Representation
 
 The representations of environment are learned by encoding context data and extracting information according to specific context learning objectives.
 Afterwards, Context-conditioned RL functions, e.g., 𝑄(𝑠,𝑎,𝑧), 𝜋(⋅|𝑠,𝑧) are trained, to make the RL agent aware of the environment representation (i.e., variations ideally).
-Therefore, with such context-conditioned RL functions, implicit generalization or explicit adaptation can be carried out.
+Therefore, with such context-conditioned RL functions, implicit generalization or explicit adaptation among environments can be carried out.
 
 
 
