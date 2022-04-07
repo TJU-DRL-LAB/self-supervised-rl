@@ -16,6 +16,10 @@ An illustration of the conventional paradigm of RL with State Representation is 
 
 <div align=center><img align="center" src="./../assets/sr_readme_figs/sr_framework.png" alt="state_representation_framework" style="zoom:20%;" /></div>
 
+We may note the three features in the paradigm: 1) the state representation, denoted by 𝑥_𝜃(𝑠), is produced by a learnable mapping usually implemented by neural networks; 2) the state representation is learned by optimizing an auxilliary task, denoted by the surrogate 𝑌 ̂(𝑠); 3) finally, the state representation is taken as input by RL functions, e.g., 𝑉 ̂(𝑠), and involved in conventional RL process.
+
+
+
 
 ## Related Work
 
