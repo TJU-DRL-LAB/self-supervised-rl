@@ -23,7 +23,7 @@ A conceptual illustration is shown below.
 ### Folder Description
 
 
-### Domains
+### Domains and Environments
 
 
 ## Installation
@@ -36,7 +36,7 @@ We recommend the user to install **anaconada** and or **venv** for convenient ma
 
 
 
-### Environment install 
+### Environment Installation
 ```
 cd myant 
 pip install -e .  
