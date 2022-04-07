@@ -9,6 +9,8 @@ Since these factors are usually inaccessable directly, to achieve the purpose of
 
 This repo contains representative research works of TJU-RL-Lab on the topic of RL with Environment Representation.
 
+### Context-based Environment Representation and Generalization
+
 <div align=center><img align="center" src="./../assets/er_readme_figs/ER_framework.png" alt="environment_representation_framework" style="zoom:20%;" /></div>
 
 ## An Overall View of Research Works in This Repo  
