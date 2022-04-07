@@ -11,12 +11,15 @@ In our opinion, RL with State Representation contains the research on:
 - **How to obtain or learn desired state representation in specific cases. (Methods of Learning State Representation)**
 - **How to deal with the co-learning and inter-dependence between state representation and RL policy/value functions. (Studies on Learning Dynamics)**
 
+### Two-Timescale Model of RL with State Representation
 
-An illustration of the conventional paradigm of RL with State Representation is shown below (modified from [Chung et al., ICLR 2019](https://openreview.net/forum?id=rJleN20qK7)):
+The conventional paradigm of RL with State Representation can be demonstrated by a _two-timescale model_, which is illustrated below (modified from [Chung et al., ICLR 2019](https://openreview.net/forum?id=rJleN20qK7)):
 
 <div align=center><img align="center" src="./../assets/sr_readme_figs/sr_framework.png" alt="state_representation_framework" style="zoom:20%;" /></div>
 
 We may note the three features in the paradigm: 1) the state representation, denoted by 𝑥_𝜃(𝑠), is produced by a learnable mapping usually implemented by neural networks; 2) the state representation is learned by optimizing an auxilliary task, denoted by the surrogate 𝑌 ̂(𝑠); 3) finally, the state representation is taken as input by RL functions, e.g., 𝑉 ̂(𝑠), and involved in conventional RL process.
+
+The word 'Two-Timescale' means that state representation and RL functions are often learned at two timescales (or even two stages as in pre-trained state representation).
 
 
 
