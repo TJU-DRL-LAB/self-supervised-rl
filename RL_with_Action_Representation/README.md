@@ -14,15 +14,18 @@ Therefore, the aim of study on action representation is to find a better represe
 ## Repo Content
 
 This repo contains representative research works of TJU-RL-Lab on the topic of RL with Action Representation.
-Currently, we focus on how to learn good action representation which can boost RL in complex action space, by following the illustration below:
+Currently, we focus on how to learn good action representation which can **boost RL in complex action space**.
 
+### Learning in Latent Action Space
+
+We use the following illustration to demonstrate a general paradigm of RL with Action Representation:
 
 <div align=center><img align="center" src="./../assets/ar_readme_figs/ar_framework.png" alt="action_representation_framework" style="zoom:20%;" /></div>
 
 This illustration is originated from [Chandak et al. (ICML 2019)](http://proceedings.mlr.press/v97/chandak19a.html). 
 Given a policy representation space, the illustration depicts the paradigme of latent policy learning, with the help of a _reversible_ action representation space.
 
-We use this illustration to demonstrate a general paradigm of RL with Action Representation.
+
 
 ## An Overall View of Research Works in This Repo  
 
