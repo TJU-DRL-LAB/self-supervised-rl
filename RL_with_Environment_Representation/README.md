@@ -3,13 +3,19 @@
 Environment Representation is one major category in our taxonomy. 
 The core research content of environment representation is to capture the **variations of environments** from the distribution of interests. Such variations can be the inner factors that determine the dynamics, reward functions and other aspects of MDP.
 
-Since these factors are usually inaccessable directly, to achieve the purpose of **generalizing well and staying robust in face of such changing variations**, environment representation is learned to infer the underlying factors from accessable data (e.g., interaction experiences).
+Since these factors are usually inaccessable directly, to achieve the purpose of **generalizing well and staying robust in face of such changing variations**, environment representation is learned to infer the underlying factors from accessible data (e.g., interaction experiences).
 
 ## Repo Content
 
 This repo contains representative research works of TJU-RL-Lab on the topic of RL with Environment Representation.
 
 ### Context-based Environment Representation and Generalization
+
+As mentioned above, we aim at learning good representations of underlying variations of environments with accessible data.
+Obviously, a reasonable type of such data is transition experiences {s,a,r,s'}, also called _context_, collected during the interaction of RL agent in the environment,
+since interaction experiences can implicitly reflect the information of environment characteristics, i.e., specific underlying variations. 
+
+We provide a conceptual illustration of Context-based Environment Representation and Generalization below:
 
 <div align=center><img align="center" src="./../assets/er_readme_figs/ER_framework.png" alt="environment_representation_framework" style="zoom:20%;" /></div>
 
