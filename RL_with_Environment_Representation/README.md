@@ -2,7 +2,8 @@
 
 Environment Representation is one major category in our taxonomy. 
 The core research content of environment representation is to capture the **variations of environments** from the distribution of interests. Such variations can be the inner factors that determine the dynamics, reward functions and other aspects of MDP.
-Since these factors are usually inaccessable directly, to achieve the purpose of generalizing well and staying robust in face of such changing variations, environment representation is learned to infer the underlying factors from accessable data (e.g., interaction experiences).
+
+Since these factors are usually inaccessable directly, to achieve the purpose of **generalizing well and staying robust in face of such changing variations**, environment representation is learned to infer the underlying factors from accessable data (e.g., interaction experiences).
 
 ## Repo Content
 
