@@ -60,7 +60,7 @@ pip install -e .
 
 ## Example Usage
 
-### (1) Reinforcement Learning Phase 
+### (1) Offline Data Collection Phase 
 
 Train PPO policies on each environments.
 
@@ -85,7 +85,7 @@ python ppo/ppo_main.py \
 --env-name myant-v0 --default-ind 0 --seed 0 
 ```
 
-### (2) PAnDR Training Phase
+### (2) PAnDR Training & Adaptation Phase
 
 #### Ant-wind
 ```
