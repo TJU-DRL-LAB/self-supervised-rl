@@ -44,7 +44,7 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 
 | Method | Is Contained | Is ReadME Prepared | Author | Publication | Link |
 | ------ | --- | --- | ------ | ------ | ------ |
-| PPO-PeVFA | ✅ | ✅ | Hongyao Tang  | AAAI 2022 | https://arxiv.org/abs/2010.09536 |
+| [PPO-PeVFA](./Policy-based_RL_with_PeVFA/PPO-PeVFA) | ✅ | ✅ | Hongyao Tang  | AAAI 2022 | https://arxiv.org/abs/2010.09536 |
 
 
 ## Installation
