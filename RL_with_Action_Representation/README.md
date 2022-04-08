@@ -34,7 +34,7 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 
 | Method | Is Contained | Is ReadME Prepared | Author | Publication | Link |
 | ------ | --- | --- | ------ | ------ | ------ |
-| HyAR | ✅ | ✅ | Boyan Li  | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
+| [HyAR](./HyAR) | ✅ | ✅ | Boyan Li  | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
 
 
 ## Installation
