@@ -21,7 +21,14 @@ A conceptual illustration is shown below.
 ## Repo Content
 
 ### Folder Description
-
+- ppo: implementation of PPO [[Schulman et al., 2017]](https://arxiv.org/abs/1707.06347), used to learn the policies of the training environments.
+- myant, myswimmer, myspaceship: enviornments used in the experiments, from PDVF [[Raileanu et al., 2020]](https://arxiv.org/abs/2007.02879v1).
+- env_utils.py: interact with the environment to collect data.
+- pandr_storage.py: store data.
+- pdvf_networks.py: network structure.
+- train_utils.py: optimizer of model.
+- pandr_arguments.py: parameters setting.
+- train_utils.py: model save and load.
 
 ### Domains and Environments
 
