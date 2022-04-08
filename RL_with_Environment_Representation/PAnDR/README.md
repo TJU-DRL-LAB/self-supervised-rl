@@ -32,7 +32,6 @@ A conceptual illustration is shown below.
 
 ### Domains and Environments
 
-
 ## Installation
 
 We recommend the user to install **anaconada** and or **venv** for convenient management of different python envs.
@@ -40,7 +39,11 @@ We recommend the user to install **anaconada** and or **venv** for convenient ma
 ### Dependencies
 
 - Python 
-
+- numpy
+- gym
+- mujoco-py
+- baselines 0.1.6
+- torch 1.7.1
 
 
 ### Environment Installation
