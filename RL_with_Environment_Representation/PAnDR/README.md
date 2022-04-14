@@ -65,20 +65,9 @@ pip install -e .
 ### (1) Offline Data Collection Phase 
 
 
-For offline experiences, we first train a PPO policy for each environment. Each of the commands below need to be run for default-ind in [0,...,14] (15 training environments). The obtained policies are training policies that serve as the collectors of offline data. For each domain, 50-episode interaction trajectories are collected by each combination of training environment and training policy, e.g., 15 ∗ 15 ∗ 50 episodes of experiences collected in total for Ant-Wind.
+For offline experiences, we first train a PPO policy for each environment. Each of the commands below need to be run for default-ind in [0,...,14] (15 training environments). The obtained policies are training policies that serve as the collectors of offline data. 
 
-
-#### Spaceship
-```
-python ppo/ppo_main.py \
---env-name spaceship-v0 --default-ind 0 --seed 0 
-```
-
-#### Swimmer
-```
-python ppo/ppo_main.py \
---env-name myswimmer-v0 --default-ind 0 --seed 0 
-```
+For each domain, 50-episode interaction trajectories are collected by each combination of training environment and training policy, e.g., 15 ∗ 15 ∗ 50 episodes of experiences collected in total for Ant-Wind.
 
 #### Ant-wind
 ```
