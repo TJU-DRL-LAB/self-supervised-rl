@@ -8,7 +8,7 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 
 
 
-## Introduction
+## 📖 Introduction
 Reinforcement Learning (RL) is a major branch of Machine Learning, with expertise in solving sequential decision-making problems.
 Following the typical paradigm of Agent-Environment Interface, 
 an RL agent interacts with the environment by performing its policy and receiving environmental states (or observations) and rewards.
@@ -79,7 +79,7 @@ Finally, our ultimate goal is to **land self-supervised representation driven RL
 
 <div align=center><img align="center" src="./assets/Ecology_of_SSRL.png" alt="Ecology of SSRL" style="zoom:40%;" /></div>
 
-## Installation
+## 💻 Installation
 
 The algorithms in this repo are all implemented **python 3.5** (and versions above). 
 **Tensorflow 1.x** and **PyTorch** are the main DL code frameworks we adopt in this repo with different choices in different algorithms.
@@ -104,7 +104,7 @@ Note that this repo is a collection of multiple research branches (according to 
 Environments and code frameworks may differ among different branches. Thus, please follow the installation guidance provided in the specific branch you are insterested in.
 
 
-## An Overall View of Research Works in This Repo  
+## 💦 An Overall View of Research Works in This Repo  
 
 
 | Category | Method | Is Contained | Author | Publication | Link |
@@ -138,7 +138,7 @@ If this repository has helped your research, please cite the following:
 
 
 
-## Major Update Log
+## 📑 Major Update Log
 2022-04-07:
 - Readme files updated for several branches (state/environment representation).
 - Codes of our work PAnDR are uploaded. 
