@@ -33,9 +33,9 @@ New advances on state representation are also emerging in recent years, mainly t
 ### Key Problems
 
 In our framework, we focus on three key questions:
-- **What should a good representation for RL be?**
-- **How can we obtain or realize such good representations?**
-- **How can we making use of good representations to improve RL?**
+- **What should a good representation for RL be? (Theory)**
+- **How can we obtain or realize such good representations? (Methodology)**
+- **How can we making use of good representations to improve RL? (Downstream Learning Tasks & Application)**
 
 We view the three questions above as a general guidance for our researches.
 
