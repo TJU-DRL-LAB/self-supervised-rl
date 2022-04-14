@@ -88,6 +88,14 @@ Finally, our ultimate goal is to **land self-supervised representation driven RL
 - **An Innovative Research Field (i.e., Policy Representation):**
 - **Strong Performance on Various Foundamental RL Problems:**
 
+With this repo and our research works, we want to draw the attention of RL community to studies on Self-supervised Representation Learning for RL.
+
+- For people who are insterested in RL, our introduction in this repo and our [blogs](https://zhuanlan.zhihu.com/p/413321572) can be a preliminary tutorial.
+- For cutting-edge RL researchers, we believe that our research thoughts and the proposed SSRL framework are insightful and inspiring, openning up new angles for future works on more advanced RL.
+- For RL practicers (especially who work on related fields), we provide advanced RL algorithms with strong performance in online RL (e.g., [PPO-PeVFA](./RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA)), hybrid-action decision-making (e.g., [HyAR](./RL_with_Action_Representation/HyAR)), policy adaptation from offline experience (e.g., [PAnDR](./RL_with_Environment_Representation/PAnDR)) ..., which can be adopted or developed in associated academic and industrial problems.
+
+We are also looking forward to feedback in any form to promote more in-depth researches.
+
 
 ## 💻 Installation
 
