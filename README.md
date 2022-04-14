@@ -79,6 +79,16 @@ Finally, our ultimate goal is to **land self-supervised representation driven RL
 
 <div align=center><img align="center" src="./assets/Ecology_of_SSRL.png" alt="Ecology of SSRL" style="zoom:40%;" /></div>
 
+
+## ⭐️ Features
+
+- **The First Repo of SSRL:**
+- **A Novel Systematic Taxonomy:**
+- **A Unified Algorithmic and Implementation Framework:**
+- **An Innovative Research Field (i.e., Policy Representation):**
+- **Strong Performance on Various Foundamental RL Problems:**
+
+
 ## 💻 Installation
 
 The algorithms in this repo are all implemented **python 3.5** (and versions above). 
