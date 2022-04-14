@@ -82,6 +82,7 @@ Finally, our ultimate goal is to **land self-supervised representation driven RL
 
 ## ⭐️ Features
 
+We summarized the major features of this repo below:
 - **The First Repo of SSRL:**
 - **A Novel Systematic Taxonomy:**
 - **A Unified Algorithmic and Implementation Framework:**
