@@ -29,6 +29,8 @@ A conceptual illustration is shown below.
 - train_utils.py: optimizer of model.
 - pandr_arguments.py: parameters setting.
 - train_utils.py: model save and load.
+- main_train.py: contains training of encoder networks, training of value function network, policy optimization and testing.
+
 
 ### Domains and Environments
 
@@ -62,10 +64,9 @@ pip install -e .
 
 ### (1) Offline Data Collection Phase 
 
-Train PPO policies on each environments.
 
-Each of the commands below need to be run 
-for seed in [0,...,4] and for default-ind in [0,...,19].
+For offline experiences, we first train a PPO policy for each environment. Each of the commands below need to be run for default-ind in [0,...,14] (15 training environments). The obtained policies are training policies that serve as the collectors of offline data. For each domain, 50-episode interaction trajectories are collected by each combination of training environment and training policy, e.g., 15 ∗ 15 ∗ 50 episodes of experiences collected in total for Ant-Wind.
+
 
 #### Spaceship
 ```
