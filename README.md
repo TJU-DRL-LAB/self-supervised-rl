@@ -87,7 +87,7 @@ We summarized the major features of this repo below:
 - **A Novel Systematic Taxonomy:** Our research thoughts and repo content are organized according to a novel taxonomy of SSRL studies, with four major distinct branches (i.e., state, action, policy and environment).
 - **A Unified Algorithmic and Implementation Framework:** We present a unified algorithmic and implementation framework, following which our works in this repo are made. More generally, almost all currently existing SSRL algorithms can be interpreted (or maybe re-constructed) with our framework, and this framework can also serve as a useful guidance when we are working on designing a new algorithm.
 - **An Innovative Research Field (i.e., Policy Representation):**
-- **Strong Performance on Various Foundamental RL Problems:**
+- **Strong Performance on Various Foundamental RL Problems:** In this repo, we provide advanced RL algorithms with strong performance various RL problems, which can be adopted or developed in associated academic and industrial problems.
 
 <div align=center><img align="center" src="./assets/pevfa_results.png" alt="Performance of PeVFA" style="zoom:20%;" /></div>
 <div align=center><img align="center" src="./assets/hyar_results.png" alt="Performance of HyAR" style="zoom:40%;" /></div>
