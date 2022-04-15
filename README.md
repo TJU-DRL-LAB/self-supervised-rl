@@ -88,8 +88,9 @@ We summarized the major features of this repo below:
 - **A Unified Algorithmic and Implementation Framework:** We present a unified algorithmic and implementation framework, following which our works in this repo are made. More generally, almost all currently existing SSRL algorithms can be interpreted (or maybe re-constructed) with our framework, and this framework can also serve as a useful guidance when we are working on designing a new algorithm.
 - **An Innovative Research Field (i.e., Policy Representation):**
 - **Strong Performance on Various Foundamental RL Problems:** In this repo, we provide advanced RL algorithms with strong performance various RL problems, which can be adopted or developed in associated academic and industrial problems.
-
+   - PPO-PeVFA achieves a ~40% aggregated performance improvement over the original PPO algorithm in OpenAI MuJoCo continuous control tasks.
 <div align=center><img align="center" src="./assets/pevfa_results.png" alt="Performance of PeVFA" style="zoom:20%;" /></div>
+   - HyAR outperforms existing methods for discrete-continuous hybrid action space in representative environments and achieves signifcantly improvements when the dimensionality is high.
 <div align=center><img align="center" src="./assets/hyar_results.png" alt="Performance of HyAR" style="zoom:40%;" /></div>
 <div align=center><img align="center" src="./assets/pandr_results.png" alt="Performance of PAnDR" style="zoom:40%;" /></div>
 
