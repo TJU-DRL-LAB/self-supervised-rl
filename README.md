@@ -89,6 +89,11 @@ We summarized the major features of this repo below:
 - **An Innovative Research Field (i.e., Policy Representation):**
 - **Strong Performance on Various Foundamental RL Problems:**
 
+<div align=center><img align="center" src="./assets/pevfa_results.png" alt="Performance of PeVFA" style="zoom:40%;" /></div>
+<div align=center><img align="center" src="./assets/hyar_results.png" alt="Performance of HyAR" style="zoom:40%;" /></div>
+<div align=center><img align="center" src="./assets/pandr_results.png" alt="Performance of PAnDR" style="zoom:40%;" /></div>
+
+
 With this repo and our research works, we want to draw the attention of RL community to studies on Self-supervised Representation Learning for RL.
 
 - For people who are insterested in RL, our introduction in this repo and our [blogs](https://zhuanlan.zhihu.com/p/413321572) can be a preliminary tutorial.
