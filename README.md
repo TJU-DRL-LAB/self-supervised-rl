@@ -83,13 +83,13 @@ Finally, our ultimate goal is to **land self-supervised representation driven RL
 ## ⭐️ Features
 
 We summarized the major features of this repo below:
-- **The First Repo of SSRL:**
+- **The First Repo of SSRL:** To our knowledge, this is the first algorithm & code repository for SSRL.
 - **A Novel Systematic Taxonomy:**
 - **A Unified Algorithmic and Implementation Framework:**
 - **An Innovative Research Field (i.e., Policy Representation):**
 - **Strong Performance on Various Foundamental RL Problems:**
 
-<div align=center><img align="center" src="./assets/pevfa_results.png" alt="Performance of PeVFA" style="zoom:40%;" /></div>
+<div align=center><img align="center" src="./assets/pevfa_results.png" alt="Performance of PeVFA" style="zoom:20%;" /></div>
 <div align=center><img align="center" src="./assets/hyar_results.png" alt="Performance of HyAR" style="zoom:40%;" /></div>
 <div align=center><img align="center" src="./assets/pandr_results.png" alt="Performance of PAnDR" style="zoom:40%;" /></div>
 
