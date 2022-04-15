@@ -85,7 +85,7 @@ Finally, our ultimate goal is to **land self-supervised representation driven RL
 We summarized the major features of this repo below:
 - **The First Repo of SSRL:** To our knowledge, this is the first algorithm & code repository for SSRL.
 - **A Novel Systematic Taxonomy:** Our research thoughts and repo content are organized according to a novel taxonomy of SSRL studies, with four major distinct branches (i.e., state, action, policy and environment).
-- **A Unified Algorithmic and Implementation Framework:**
+- **A Unified Algorithmic and Implementation Framework:** We present a unified algorithmic and implementation framework, following which our works in this repo are made. More generally, almost all currently existing SSRL algorithms can be interpreted (or maybe re-constructed) with our framework, and this framework can also serve as a useful guidance when we are working on designing a new algorithm.
 - **An Innovative Research Field (i.e., Policy Representation):**
 - **Strong Performance on Various Foundamental RL Problems:**
 
