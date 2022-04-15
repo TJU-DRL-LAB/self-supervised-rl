@@ -65,7 +65,7 @@ From left to right, the framework consists of four phases:
 The unified framework we propose is general. Almost all currently existing SSRL algorithms can be interpreted with our framework. 
 In turn, this unified framework can also serve as a guidance when we are working on designing a new algorithm.
 
-<div align=center><img align="center" src="./assets/alg_framework.png" alt="Algorithmic Framework of SSRL" style="zoom:20%;" width=75%/></div>
+<div align=center><img align="center" src="./assets/alg_framework.png" alt="Algorithmic Framework of SSRL" style="zoom:20%;" width=85%/></div>
 
 
 ### Ecology of SSRL
@@ -77,7 +77,7 @@ For algorithms and methods proposed, we plan to study **a unified algorithmic fr
 These representations are expected to **boost the learning in various downstream RL problems**, in straightforward or sophatiscated ways.
 Finally, our ultimate goal is to **land self-supervised representation driven RL in real-world decision-making scenarios**.
 
-<div align=center><img align="center" src="./assets/Ecology_of_SSRL.png" alt="Ecology of SSRL" style="zoom:40%;"  width=75%/></div>
+<div align=center><img align="center" src="./assets/Ecology_of_SSRL.png" alt="Ecology of SSRL" style="zoom:40%;"  width=85%/></div>
 
 
 ## ⭐️ Features
@@ -86,7 +86,7 @@ We summarized the major features of this repo below:
 - **The First Repo of SSRL:** To our knowledge, this is the first algorithm & code repository for SSRL.
 - **A Novel Systematic Taxonomy:** Our research thoughts and repo content are organized according to a novel taxonomy of SSRL studies, with four major distinct branches (i.e., state, action, policy and environment).
 - **A Unified Algorithmic and Implementation Framework:** We present a unified algorithmic and implementation framework, following which our works in this repo are made. More generally, almost all currently existing SSRL algorithms can be interpreted (or maybe re-constructed) with our framework, and this framework can also serve as a useful guidance when we are working on designing a new algorithm.
-- **An Innovative Research Field (i.e., Policy Representation):**
+- **An Innovative Research Field (i.e., Policy Representation):** In our taxonomy, policy representation is an innovative research direction proposed and systematically estabilised by us, which is very seldom studied in RL community before (a few predecessor works exist).
 - **Strong Performance on Various Foundamental RL Problems:** In this repo, we provide advanced RL algorithms with strong performance various RL problems, which can be adopted or developed in associated academic and industrial problems.
    - [PPO-PeVFA](./RL_with_Policy_Representation/Policy-based_RL_with_PeVFA/PPO-PeVFA) achieves a ~40% aggregated performance improvement over the original PPO algorithm in OpenAI MuJoCo continuous control tasks. <div align=center><img align="center" src="./assets/pevfa_results.png" alt="Performance of PeVFA" style="zoom:20%;" width=50%/></div>
    - [HyAR](./RL_with_Action_Representation/HyAR) outperforms existing methods for discrete-continuous hybrid action space in representative environments and achieves signifcantly improvements when the dimensionality is high. <div align=center><img align="center" src="./assets/hyar_results.png" alt="Performance of HyAR" style="zoom:40%;" /></div>
