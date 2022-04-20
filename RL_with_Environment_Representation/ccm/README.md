@@ -22,15 +22,6 @@ A conceptual illustration is shown below.
 
 
 
-## Related Work
-
-This repo includes several reinforcement learning algorithms for hybrid action space MDPs:
-1. HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3)
-2. MAHHQN[[Fu et al. 2018]](https://arxiv.org/abs/1903.04959)
-3. P-DQN [[Xiong et al. 2018]](https://arxiv.org/abs/1810.06394)
-4. PA-DDPG [[Hausknecht & Stone 2016]](https://arxiv.org/abs/1511.04143)
-
-
 ## Repo Content
 
 ### Folder Description
@@ -40,7 +31,7 @@ This repo includes several reinforcement learning algorithms for hybrid action s
 
 ### Domains
 
-Experiment scripts are provided to run our algorithm on the OpenAI gym, with the MuJoCo simulator, We further modify the original tasks to be Meta-RL tasks similar to PEARL.
+Experiment scripts are provided to run our algorithm on the OpenAI gym, with the MuJoCo simulator, We further modify the original tasks to be Meta-RL tasks similar to [PEARL](https://github.com/katerakelly/oyster).
 
 
 
