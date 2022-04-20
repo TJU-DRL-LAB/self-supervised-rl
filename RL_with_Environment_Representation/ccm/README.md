@@ -56,7 +56,7 @@ We recommend the user to install **anaconada** for convenient management of diff
 - Python 3.6+ (tested with 3.6 and 3.7)
 - torch 1.10+
 
-other dependencies are same as PEARL
+other dependencies are same as [PEARL](https://github.com/katerakelly/oyster).
 
 ## Example Usage
 
