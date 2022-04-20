@@ -32,10 +32,10 @@ Therefore, with such context-conditioned RL functions, implicit generalization o
 This repo will be constantly updated to include new researches made by TJU-RL-Lab. 
 (The development of this repo is in progress at present.)
 
-| Method | Is Contained | Is ReadME Prepared | Author | Publication | Link |
-| ------ | --- | --- | ------ | ------ | ------ |
-| CCM | ❌ | ❌ |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| [PAnDR](./PAnDR) |✅ | ❌ |Tong Sang| [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | https://arxiv.org/abs/2204.02877 |
+| Method | Is Contained | Author | Publication | Link |
+| ------ | --- |  ------ | ------ | ------ |
+| [CCM](./ccm) | ✅  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
+| [PAnDR](./PAnDR) |✅ |Tong Sang| [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | https://arxiv.org/abs/2204.02877 |
 
 
 ## Installation
