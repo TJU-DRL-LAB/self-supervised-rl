@@ -1,8 +1,8 @@
 # AAAI 2021-Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning (CCM)
 
 This is the official implementation of 
-our work [HyAR: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation](https://openreview.net/forum?id=64trBbOhdGU)
-accepted on ICLR 2022.
+our work [Towards Effective Context for Meta-Reinforcement Learning: an Approach based on Contrastive Learning](https://ojs.aaai.org/index.php/AAAI/article/view/16914)
+accepted on AAAI 2021.
 
 ## Introduction
 
@@ -80,11 +80,23 @@ We refer the user to our paper for complete details of hyperparameter settings a
 ## Citation
 If this repository has helped your research, please cite the following:
 ```bibtex
-@inproceedings{li2022hyar,
-  title     = {Hy{AR}: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation},
-  author    = {Boyan Li and Hongyao Tang and YAN ZHENG and Jianye HAO and Pengyi Li and Zhen Wang and Zhaopeng Meng and LI Wang},
-  booktitle = {International Conference on Learning Representations},
-  year      = {2022},
-  url       = {https://openreview.net/forum?id=64trBbOhdGU}
+@inproceedings{fu2021ccm,
+  title     = {Towards Effective Context for Meta-Reinforcement Learning: an Approach
+               based on Contrastive Learning},
+  author    = {Haotian Fu and
+               Hongyao Tang and
+               Jianye Hao and
+               Chen Chen and
+               Xidong Feng and
+               Dong Li and
+               Wulong Liu},
+  booktitle = {Thirty-Fifth {AAAI} Conference on Artificial Intelligence},
+  pages     = {7457--7465},
+  publisher = {{AAAI} Press},
+  year      = {2021},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/16914},
+  timestamp = {Wed, 02 Jun 2021 18:09:11 +0200},
+  biburl    = {https://dblp.org/rec/conf/aaai/FuTHCFLL21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
