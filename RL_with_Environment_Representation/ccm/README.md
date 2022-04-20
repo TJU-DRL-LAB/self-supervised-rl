@@ -5,20 +5,28 @@ our work [Towards Effective Context for Meta-Reinforcement Learning: an Approach
 accepted on AAAI 2021.
 
 ## Introduction
+Toward the generalization among environments and tasks, Context-based Meta-Reinforcement Learning (MetaRL) is a potential solution.
+Context, the embedding of previous collected trajectories, is a powerful construct for MetaRL algorithms. 
+By conditioning on an effective context, Meta-RL policies can easily generalize to new tasks within a few adaptation steps. 
 
-Discrete-continuous hybrid action space is a natural setting in many practical problems, such as robot control and game AI. However, most previous Reinforcement Learning (RL) works only demonstrate the success in controlling with either discrete or continuous action space, while seldom take into account the hybrid action space. 
+We argue that improving the quality
+of context involves answering two questions: 
+- How to train a compact and sufficient encoder that can embed the taskspecific information contained in prior trajectories? 
+- How to collect informative trajectories of which the corresponding context reflects the specification of tasks? 
+To this end, we propose a novel Meta-RL framework called CCM (Contrastive learning augmented Context-based Meta-RL). 
+The core ideas of CCM are Contrastive Context Representation and Contrast-driven Information Gain Exploration, to answer the two questions listed above respectively.
 
-One naive way to address hybrid action RL is to convert the hybrid action space into a unified homogeneous action space by discretization or continualization, so that conventional RL algorithms can be applied. 
-However, this **ignores the underlying structure of hybrid action space** and also induces the scalability issue and additional approximation difficulties, thus leading to degenerated results. 
+For Contrastive Context Representation, we first focus on the contrastive nature behind different tasks and leverage
+it to train a compact and sufficient context encoder. The contrastive context encoder is depicted in the following.
 
-In this work, we propose **Hybrid Action Representation (HyAR)** to learn a **compact** and **decodable** latent representation space for the original hybrid action space:
-- HyAR constructs the latent space and embeds the dependence between discrete action and continuous parameter via an embedding table and conditional Variantional Auto-Encoder (VAE).
-- To further improve the effectiveness, the action representation is trained to be semantically smooth through unsupervised environmental dynamics prediction.
-- Finally, the agent then learns its policy with conventional DRL algorithms in the learned representation space and interacts with the environment by decoding the hybrid action embeddings to the original action space. 
+<div align=center><img align="center" src="./assets/ccm_contrastive_context.png" alt="Contrastive Context Encoder" style="zoom:40%;" /></div>
 
-A conceptual illustration is shown below.
+For Contrast-driven Information Gain Exploration, we train a separate exploration policy and theoretically derive
+a new information-gain-based objective which aims to collect informative trajectories in a few steps.
+The illustration of CCM training procedure is shown below, where dashed lines denote backward gradients.
 
-<div align=center><img align="center" src="./assets/HyAR_concept.png" alt="HyAR Conceptual Illustration" style="zoom:40%;" /></div>
+<div align=center><img align="center" src="./assets/ccm_framework.png" alt=" CCM training procedure" style="zoom:40%;" /></div>
+
 
 
 
