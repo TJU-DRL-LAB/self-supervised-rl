@@ -1,8 +1,9 @@
-# ICLR 2022 GPL Workshop-Policy Adaptation via Decoupled Policy and Environment Representations (PAnDR)
+# IJCAI 2022-Policy Adaptation via Decoupled Policy and Environment Representations (PAnDR)
 
 This is the official implementation of 
 our work [PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations](https://arxiv.org/abs/2204.02877)
-presented at ICLR 2022 Workshop on Generalizable Policy Leanring (GPL).
+accepted on IJCAI 2022.
+A preliminary version is also presented at ICLR 2022 Workshop on Generalizable Policy Leanring (GPL).
 
 ## Introduction
 
