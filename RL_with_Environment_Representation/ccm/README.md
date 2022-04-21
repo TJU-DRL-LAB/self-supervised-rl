@@ -19,7 +19,7 @@ The core ideas of CCM are Contrastive Context Representation and Contrast-driven
 For Contrastive Context Representation, we first focus on the contrastive nature behind different tasks and leverage
 it to train a compact and sufficient context encoder. The contrastive context encoder is depicted in the following.
 
-<div align=center><img align="center" src="./assets/ccm_contrastive_context.png" alt="Contrastive Context Encoder" style="zoom:40%;" /></div>
+<div align=center><img align="center" src="./assets/contrastive_context_encoder.png" alt="Contrastive Context Encoder" style="zoom:40%;" /></div>
 
 For Contrast-driven Information Gain Exploration, we train a separate exploration policy and theoretically derive
 a new information-gain-based objective which aims to collect informative trajectories in a few steps.
