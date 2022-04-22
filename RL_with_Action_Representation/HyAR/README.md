@@ -44,8 +44,8 @@ This repo includes several reinforcement learning algorithms for hybrid action s
 
 Experiment scripts are provided to run each algorithm on the following domains with hybrid actions:
 
-- Platform (https://github.com/cycraig/gym-platform)
-- Robot Soccer Goal (https://github.com/cycraig/gym-goal)
+- [Platform](https://github.com/cycraig/gym-platform)
+- [Robot Soccer Goal](https://github.com/cycraig/gym-goal)
 - Catch Point (mimic implementation of the environment used in HPPO[[Fan et al. 2018]](https://arxiv.org/abs/1903.01344v3))
 - Hard Goal (designed by us, developed based on Robot Soccer Goal)
 - Hard Move (designed by us, inspired by the environment used in [Chandak et al. (ICML 2019)](http://proceedings.mlr.press/v97/chandak19a.html))
