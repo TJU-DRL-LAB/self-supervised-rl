@@ -132,11 +132,11 @@ Environments and code frameworks may differ among different branches. Thus, plea
 
 | Category | Method | Is Contained | Author | Publication | Link |
 | ------ | ------ | --- | ------ | ------ | ------ |
-| Action | HyAR |✅ |  Boyan Li | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
+| Action | [HyAR](RL_with_Action_Representation/HyAR) |✅ |  Boyan Li | ICLR 2022 | https://openreview.net/forum?id=64trBbOhdGU |
 | Policy | PPO-PeVFA | ✅  | Hongyao Tang  |AAAI 2022 | https://arxiv.org/abs/2010.09536 |
-| Env&task | CCM | ✅  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| Env&task | PAnDR |✅  |Tong Sang| IJCAI 2022 & [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | https://arxiv.org/abs/2204.02877 |
-| Other | VDFP |✅  |Hongyao Tang| AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
+| Env&task | [CCM](RL_with_Environment_Representation/ccm) | ✅  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
+| Env&task | [PAnDR](RL_with_Environment_Representation/PAnDR) |✅  |Tong Sang| IJCAI 2022 | https://arxiv.org/abs/2204.02877 |
+| Other | [VDFP](RL_with_Other_Representation/VDFP) |✅  |Hongyao Tang| AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/17182 |
 
 
 ## TODO
