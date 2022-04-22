@@ -93,11 +93,23 @@ We refer the user to our paper for complete details of hyperparameter settings a
 If this repository has helped your research, please cite the following:
 ```bibtex
 @inproceedings{sang2022pandr,
-  title     = {PAnDR: Fast Adaptation to New Environments from Offline Experiences via Decoupling Policy and Environment Representations},
-  author    = {Tong Sang, Hongyao Tang, Yi Ma, Jianye Hao, Yan Zheng, Zhaopeng Meng, Boyan Li, Zhen Wang},
-  booktitle = {International Conference on Learning Representations Workshop on Generalizable Policy Learning},
+  author    = {Tong Sang and
+               Hongyao Tang and
+               Yi Ma and
+               Jianye Hao and
+               Yan Zheng and
+               Zhaopeng Meng and
+               Boyan Li and
+               Zhen Wang},
+  title     = {PAnDR: Fast Adaptation to New Environments from Offline Experiences
+               via Decoupling Policy and Environment Representations},
+  booktitle = {Proceedings of the Thirty-First International Joint Conference on
+               Artificial Intelligence, {IJCAI} 2022},
+  pages     = {TBD},
   year      = {2022},
   url       = {https://arxiv.org/abs/2204.02877}
 }
 ```
 
+
+}
