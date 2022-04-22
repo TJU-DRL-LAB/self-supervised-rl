@@ -35,7 +35,7 @@ This repo will be constantly updated to include new researches made by TJU-RL-La
 | Method | Is Contained | Author | Publication | Link |
 | ------ | --- |  ------ | ------ | ------ |
 | [CCM](./ccm) | ✅  |Haotian Fu | AAAI 2021 | https://ojs.aaai.org/index.php/AAAI/article/view/16914 |
-| [PAnDR](./PAnDR) |✅ |Tong Sang| IJCAI 2022 & [ICLR 2022 GPL Workshop](https://ai-workshops.github.io/generalizable-policy-learning-in-the-physical-world/) | https://arxiv.org/abs/2204.02877 |
+| [PAnDR](./PAnDR) |✅ |Tong Sang| IJCAI 2022 | https://arxiv.org/abs/2204.02877 |
 
 
 ## Installation
