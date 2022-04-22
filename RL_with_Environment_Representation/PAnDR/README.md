@@ -111,5 +111,3 @@ If this repository has helped your research, please cite the following:
 }
 ```
 
-
-}
