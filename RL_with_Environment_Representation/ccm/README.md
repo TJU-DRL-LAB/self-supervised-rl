@@ -56,7 +56,7 @@ We recommend the user to install **anaconada** for convenient management of diff
 - Python 3.6+ (tested with 3.6 and 3.7)
 - torch 1.10+
 
-other dependencies are same as [PEARL](https://github.com/katerakelly/oyster).
+Other dependencies are same as [PEARL](https://github.com/katerakelly/oyster).
 
 ## Example Usage
 
@@ -94,8 +94,5 @@ If this repository has helped your research, please cite the following:
   publisher = {{AAAI} Press},
   year      = {2021},
   url       = {https://ojs.aaai.org/index.php/AAAI/article/view/16914},
-  timestamp = {Wed, 02 Jun 2021 18:09:11 +0200},
-  biburl    = {https://dblp.org/rec/conf/aaai/FuTHCFLL21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
