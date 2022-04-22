@@ -70,7 +70,7 @@ For hyperparameter settings, please refer to our paper for details. Feel free to
 
 ## Citation
 If this repository has helped your research, please cite the following:
-```
+```bibtex
 @inproceedings{Tang2021VDFP,
   author    = {Hongyao Tang and
                Zhaopeng Meng and
@@ -84,16 +84,10 @@ If this repository has helped your research, please cite the following:
   title     = {Foresee then Evaluate: Decomposing Value Estimation with Latent Future
                Prediction},
   booktitle = {Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI}
-               2021, Thirty-Third Conference on Innovative Applications of Artificial
-               Intelligence, {IAAI} 2021, The Eleventh Symposium on Educational Advances
-               in Artificial Intelligence, {EAAI} 2021, Virtual Event, February 2-9,
                2021},
   pages     = {9834--9842},
   publisher = {{AAAI} Press},
   year      = {2021},
   url       = {https://ojs.aaai.org/index.php/AAAI/article/view/17182},
-  timestamp = {Fri, 19 Nov 2021 10:30:41 +0100},
-  biburl    = {https://dblp.org/rec/conf/aaai/TangMCCCYZLH21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
