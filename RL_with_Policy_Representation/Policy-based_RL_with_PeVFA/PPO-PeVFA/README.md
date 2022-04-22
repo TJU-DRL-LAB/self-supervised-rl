@@ -64,7 +64,7 @@ For hyperparameter settings, please refer to our paper for details. Feel free to
 
 ## Citation
 If this repository has helped your research, please cite the following:
-```
+```bibtex
 @inproceedings{Tang2021PeVFA,
   author    = {Hongyao Tang and
                Zhaopeng Meng and
@@ -84,9 +84,6 @@ If this repository has helped your research, please cite the following:
   pages     = {TBD},
   publisher = {{AAAI} Press},
   year      = {2022},
-  url       = {TBD},
-  timestamp = {TBD},
-  biburl    = {TBD},
-  bibsource = {TBD}
+  url       = {https://arxiv.org/abs/2010.09536},
 }
 ```
