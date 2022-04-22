@@ -42,7 +42,7 @@ We view the three questions above as a general guidance for our researches.
 
 ### Taxonomy of SSRL
 This repo follow a systematic taxnomy of Self-supervised RL with Representations proposed by TJU-RL-Lab, which consists of:
-- SSRL with State Representation
+- [SSRL with State Representation](RL_with_State_Representation)
 - SSRL with Action Representation
 - SSRL with Policy Representation
 - SSRL with Environment (and Task) Representation
