@@ -89,10 +89,19 @@ We refer the user to our paper for complete details of hyperparameter settings a
 If this repository has helped your research, please cite the following:
 ```bibtex
 @inproceedings{li2022hyar,
-  title     = {Hy{AR}: Addressing Discrete-Continuous Action Reinforcement Learning via Hybrid Action Representation},
-  author    = {Boyan Li and Hongyao Tang and YAN ZHENG and Jianye HAO and Pengyi Li and Zhen Wang and Zhaopeng Meng and LI Wang},
+  author    = {Boyan Li and
+               Hongyao Tang and
+               Yan Zheng and
+               Jianye Hao and
+               Pengyi Li and
+               Zhen Wang and
+               Zhaopeng Meng and
+               Li Wang},
+  title     = {HyAR: Addressing Discrete-Continuous Action Reinforcement Learning
+               via Hybrid Action Representation},
   booktitle = {International Conference on Learning Representations},
   year      = {2022},
   url       = {https://openreview.net/forum?id=64trBbOhdGU}
 }
 ```
+
