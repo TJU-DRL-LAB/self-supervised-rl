@@ -25,10 +25,15 @@ In most cases mentioned above, the main idea of SSL is to **learn good represent
 which is often done by optimizing various pretext tasks (i.e., auxiliary tasks), e.g., reconstruction, prediction and contrast.
 Now, we focus on the representations in RL, seeking for an answer to the question above - **"how to properly learn/use representations for RL"**.
 
+Before we dive in devising representation learning methods for RL, the first thing to identify is **the data we need to represent**.
+Among possible representations in RL, a representative branch one may familiar with is state representation.
+<!--
 Among possible representations in RL, state representation is one major branch.
 The researches on state representation dates back to heuristic representations in linear approximation, 
 state abstraction theories & methods in the early 21th century (actually even earlier).
 New advances on state representation are also emerging in recent years, mainly to devise performant algorithms when dealing with high-dimensional states (or observations), e.g., image inputs, and to reveal the intricate but intriguing theories of learning dynamics of representation and RL functions.
+-->
+
 
 ### Key Problems
 
