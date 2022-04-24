@@ -26,7 +26,8 @@ which is often done by optimizing various pretext tasks (i.e., auxiliary tasks),
 Now, we focus on the representations in RL, seeking for an answer to the question above - **"how to properly learn/use representations for RL"**.
 
 Before we dive in devising representation learning methods for RL, the first thing to identify is **the data we need to represent**.
-Among possible representations in RL, a representative branch one may familiar with is state representation.
+Among possible representations in RL, a representative branch one may familiar with is state representation, i.e., from heuristic representations in linear approximation to recent advances in dealing with high-dimensional states (or observations).
+However, beyond state, the representation of more _sophisticated_ data in RL posts larger challenges and reveals much potentials meanwhile. 
 <!--
 Among possible representations in RL, state representation is one major branch.
 The researches on state representation dates back to heuristic representations in linear approximation, 
