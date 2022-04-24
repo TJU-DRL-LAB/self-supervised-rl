@@ -29,8 +29,9 @@ Before we dive in devising representation learning methods for RL, the first thi
 Among possible representations in RL, a representative branch one may familiar with is state representation, i.e., from heuristic representations in linear approximation to recent advances in dealing with high-dimensional states (or observations).
 However, beyond state, the representation of more _sophisticated_ data in RL posts larger challenges and reveals much potentials meanwhile.
 For exmaples,
-towards the generalization among different tasks and environments, how to well represent the underlying variation factors is an essential thing;
-if we are able to estabilsh a latent space of policy, can we `raise a revolution' of the evaluation and improvement of policy?; ...
+- towards the generalization among different tasks and environments, how to well represent the underlying variation factors is an essential thing;
+- if we are able to estabilsh a latent space of policy, can we `raise a revolution' of the evaluation and improvement of policy?
+- ...
 
 <!--
 Among possible representations in RL, state representation is one major branch.
